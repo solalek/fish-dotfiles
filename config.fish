@@ -4,5 +4,7 @@ if status is-interactive
     bind \ch backward-char
     bind \cj end-of-line
     bind \ck beginning-of-line
+    bind \cf 'clear'
     fzf_key_bindings
+    zoxide init fish | source
 end

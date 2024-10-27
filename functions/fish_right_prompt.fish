@@ -1,3 +1,5 @@
+# See "Right prompt options" in README.md for configuration options
+
 function __bobthefish_cmd_duration -S -d 'Show command duration'
     [ "$theme_display_cmd_duration" = "no" ]
     and return
